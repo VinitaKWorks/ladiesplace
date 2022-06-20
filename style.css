@@ -70,6 +70,7 @@ span a:hover {
 
 .image-container1 {
   display: flex;
+  display: -ms-flexbox;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -94,6 +95,7 @@ span a:hover {
 
 .catalogue-container {
   display: flex;
+  display: -ms-flexbox;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -119,7 +121,7 @@ figcaption {
 
 .container2 {
   display: grid;
-  display: -msgrid;
+  display: -ms-grid;
   grid-template-columns: auto auto;
   -ms-grid-columns: auto auto;
   width: 100%;
